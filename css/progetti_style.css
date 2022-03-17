@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+.background{
+    color: #005671;
+    background-image: url('../images/background_project.jpg');
+} 
+
+.header{
+  width: auto;
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container-row{
+    width: 80%;
+    margin-top: 60px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.element{
+    width: 50%;
+    text-align: center;
+    display: table-cell;
+}
+
+.element img{
+  width: 100px;
+  height: 100px;
+}
+
+.element ul{
+  list-style-type: circle;
+}
+
+.element li{
+  text-align: start;
+}
+
+.footer{
+  position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+   
+  .body, html{
+    height: auto;
+  }
+
+}
